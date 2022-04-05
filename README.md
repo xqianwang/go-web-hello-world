@@ -8,6 +8,8 @@ Task0 Install a ubuntu 18.04 server 64-bit:
  3. After installation, in the terminal, install ssh server on ubuntu by running a few commands: `sudo apt update`, `sudo apt install openssh-server`, `sudo systemctl status ssh`.
  4. Configure firewall to open ssh port on server with command `sudo ufw allow ssh`
  5. Configure network settings of the VM in virtual box.  Choose NAT network adapter and add port forwarding rules in advanced section.
+
+
 | Name | Protocol | Host Port | Guest Port |
 |--|--|--|--|
 | ssh | TCP | 22222 | 22 |
